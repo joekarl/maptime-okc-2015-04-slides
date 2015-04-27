@@ -26,7 +26,7 @@
 
 class: center, middle
 
-# ATM finding as a service at Simple
+# ATM locations as a service at Simple
 
 ---
 
@@ -47,9 +47,9 @@ class: center, middle
 
 ---
 
-## ATM finder service
+## ATM locations service
 
-* ATMs in a given bounding box
+* ATMs in a given bounding box, sorted by distance
 * Nearest ATM to a location
 * Nearest ATM to an address
 
@@ -73,7 +73,6 @@ class: center, middle
 * A geo data store
 * A way to populate the data store
 * A way to search the data store
-* Multiple people searching the data store at a given time
 
 ---
 
@@ -97,6 +96,7 @@ class: center, middle
 * Golang is good for fairly CPU intensive things
 * Don't need the overhead/latency
 * One less server to run/manage
+* Static data doesn't need coordination
 
 ---
 
